@@ -53,5 +53,8 @@ module.exports = {
   plugins: [
     WebpackPluginPluginConfig,
     CopyWebpackPluginConfig
-  ]
+  ],
+  resolve: {
+    extensions: [".jsx", ".js"]
+  }
 };
